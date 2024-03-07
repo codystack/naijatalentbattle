@@ -1,1 +1,1 @@
-# naijatalenthunt
+# naijatalentbattle
