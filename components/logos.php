@@ -3,7 +3,7 @@
                <div class="row">
                   <div class="col-lg-12" data-cue="fadeIn">
                      <div class="text-center mb-4 mb-lg-7">
-                        <h3 class="mb-0">Our Sponsors</h3>
+                        <h3 class="mb-0">Our Sponsors & Partners</h3>
                      </div>
                      <div class="swiper logoSwiper">
                         <div class="swiper-wrapper pb-6">
