@@ -12,7 +12,7 @@
                      </div>
                      <div class="col-lg-12">
                         <div class="text-center">
-                           <a href="register" class="btn btn-lg btn-light ">Register Now</a>
+                           <a href="register" class="btn btn-lg btn-light text-danger">Register Now</a>
                         </div>
                      </div>
                   </div>

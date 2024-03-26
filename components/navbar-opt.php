@@ -13,13 +13,13 @@
                <div class="offcanvas-body pt-0 align-items-center">
                   <ul class="navbar-nav mx-auto align-items-lg-center">
                      <li class="nav-item">
-                        <a class="nav-link" href="./">Home</a>
+                        <a class="nav-link <?php if($page=='Home'){echo 'active';}?>" href="./">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about">About </a>
+                        <a class="nav-link <?php if($page=='About'){echo 'active';}?>" href="about">About </a>
                      </li>
                      <li class="nav-item">
-                           <a class="nav-link" href="faq">FAQ's</a>
+                           <a class="nav-link <?php if($page=='FAQ'){echo 'active';}?>" href="faq">FAQ's</a>
                         </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Gallery</a>
@@ -28,10 +28,11 @@
                         </ul>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contact">Contact</a>
+                        <a class="nav-link <?php if($page=='Contact'){echo 'active';}?>" href="contact">Contact</a>
                      </li>
                   </ul>
                   <div class="mt-3 mt-lg-0 d-flex align-items-center">
+                     <a href="vote" class="btn btn-outline-danger me-2">Vote</a>
                      <a href="register" class="btn btn-danger">Register Now</a>
                   </div>
                </div>

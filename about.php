@@ -1,4 +1,5 @@
 <?php
+$page = "About";
 @include("./components/header.php");
 @include("./components/navbar-opt.php");
 ?>
@@ -26,21 +27,21 @@
             <div class="container">
                <div class="row gy-4">
                   <div class="col-lg-4 col-md-4 col-12">
-                     <a href="assets/images/about-img-1.jpg" class="glightbox rounded-3">
+                     <a href="assets/images/about-img-1.jpeg" class="glightbox rounded-3">
                         <div
                            class="rounded-3 card-lift"
                            style="background-image: url(assets/images/about-img-1.jpeg); background-repeat: no-repeat; height: 350px; background-size: cover"></div>
                      </a>
                   </div>
                   <div class="col-lg-4 col-md-4 col-12">
-                     <a href="assets/images/about-img-2.jpg" class="glightbox rounded-3">
+                     <a href="assets/images/about-img-2.jpeg" class="glightbox rounded-3">
                         <div
                            class="rounded-3 card-lift"
                            style="background-image: url(assets/images/about-img-2.jpeg); background-repeat: no-repeat; height: 350px; background-size: cover"></div>
                      </a>
                   </div>
                   <div class="col-lg-4 col-md-4 col-12">
-                     <a href="assets/images/about-img-3.jpg" class="glightbox rounded-3">
+                     <a href="assets/images/about-img-3.jpeg" class="glightbox rounded-3">
                         <div
                            class="rounded-3 card-lift"
                            style="background-image: url(assets/images/about-img-3.jpeg); background-repeat: no-repeat; height: 350px; background-size: cover"></div>

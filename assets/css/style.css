@@ -23769,8 +23769,8 @@ button:focus {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link.active,.navbar-light .navbar-nav .nav-item .nav-link:hover {
-    background-color: var(--bs-gray-100);
-    color: var(--bs-gray-800)
+    background-color: #db14361a;
+    color: #db1536;
 }
 
 .navbar-transparent {

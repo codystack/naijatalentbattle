@@ -1,4 +1,5 @@
 <?php
+$page = "Contact";
 @include("./components/header.php");
 @include("./components/navbar-opt.php");
 ?>
