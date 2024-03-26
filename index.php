@@ -51,12 +51,11 @@
                   <div class="col-xl-5 col-lg-6 col-12" data-cue="slideInLeft">
                      <div class="mb-4">
                         <small class="text-uppercase ls-md fw-semibold">who we are</small>
-                        <h2 class="h1 mt-4 mb-3">Believes in the power of creative strategy.</h2>
-                        <p class="mb-3">We are a web design and development agency. We specialise in bridging the gap between our clients and their goals.</p>
-                        <p class="mb-0">Consequat mauris nunc congue nisi vitae suscipit tellus mauris a. Amet mattis vulputate enim nulla aliquet porttitor lacus.</p>
+                        <h2 class="h1 mt-4 mb-3">About Naija Talent Battle.</h2>
+                        <p class="mb-0">Naija Talent Battle is a live entertainment and Talent Contest across all creative genres. Naija Talent Battle is Committed to Creating Positive Platform for talent discovery through her annual Talent Competition that is focused in exposing and recruiting young and talented youths into the Entertainment industry in pursuit of their career</p>
                      </div>
 
-                     <a href="about.html" class="icon-link icon-link-hover">
+                     <a href="about" class="icon-link icon-link-hover text-danger">
                         More about us
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                            <path
