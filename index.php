@@ -19,7 +19,6 @@
                            </div>
 
                            <a href="register" class="btn btn-danger">Register Now</a>
-                           <a href="register" class="btn btn-outline-white">Vote</a>
                         </div>
                      </div>
                   </div>
@@ -34,10 +33,10 @@
                <div class="row">
                   <div class="col-xl-6 offset-xl-3 col-md-12 col-12">
                      <div class="text-center mb-xl-7 mb-5" data-cue="fadeIn">
-                        <small class="text-uppercase ls-md fw-semibold">modern tech stack</small>
-                        <h2 class="my-3">Building the web</h2>
+                        <small class="text-uppercase ls-md fw-semibold">Who will rise to the challenge</small>
+                        <h2 class="my-3">Will you be the champion?</h2>
                         <p class="mb-0 text-body">
-                           We work with cutting-edge technologies designed to solve your product requirements. Focus on finding solutions for your business needs while we handle the technical aspect.
+                           Season after season, we unearth hidden talents who push boundaries and crave the spotlight. We don't just find them – we empower them. We transform raw potential into global stars, equipping them with the tools and reach they need to shine.
                         </p>
                      </div>
                   </div>
@@ -70,7 +69,7 @@
                            <a href="#!">
                               <div
                                  class="rounded-3 card-lift"
-                                 style="background-image: url(assets/images/about-img/about-grid-img-2.jpg); background-repeat: no-repeat; height: 386px; background-size: cover"></div>
+                                 style="background-image: url(assets/images/hmeimg.jpeg); background-repeat: no-repeat; height: 386px; background-size: cover"></div>
                            </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
