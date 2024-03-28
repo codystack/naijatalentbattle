@@ -42,7 +42,7 @@
                                 <div class="text-center mb-6">
                                     <a href="./"><img src="assets/images/ntb-logo.svg" alt="brand" width="100" class="mb-1 mt-2" /></a>
                                     <h3 class="mb-1">Bank Transfer</h3>
-                                    <p class="mb-0">Make a deposit via bank transfer to the information below</p>
+                                    <p class="mb-0">Make a deposit via bank transfer to the information below<br> <span class="text-danger fw-bold">NOTE:</span> Take a screenshot to be uploaded as proof of payment.</p>
                                 </div>
 
                                 <div class="container mt-5">
