@@ -117,8 +117,7 @@ function payWithPaystack(e) {
     callback: function(response){
       //let message = 'Payment complete! Reference: ' + response.reference;
       //alert(message);
-      //window.location = "./verify_transaction?reference=" + response.reference; // Live Location
-      window.location = "./verify_transaction?reference=" + response.reference; // Demo Location
+      window.location = "./verify_transaction?reference=" + response.reference;
     }
   });
   handler.openIframe();

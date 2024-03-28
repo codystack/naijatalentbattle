@@ -22223,15 +22223,15 @@ b,strong {
 }
 
 .card-hover:hover span {
-    border-color: var(--bs-primary)!important
+    border-color: var(--bs-danger)!important
 }
 
 .card-hover:hover .card-text {
-    color: var(--bs-primary)
+    color: var(--bs-danger)
 }
 
 .card-hover:hover svg {
-    fill: var(--bs-primary)
+    fill: var(--bs-danger)
 }
 
 .card-grid {
