@@ -1,3 +1,6 @@
+<?php
+    require_once "./auth/registration.php";
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -339,7 +342,7 @@
                                                     Account Name
                                                     <span class="text-danger">*</span>
                                                 </label>
-                                                <input type="text" class="form-control" id="accountName" name="aacountName" placeholder="Emeka Kayode" required />
+                                                <input type="text" class="form-control" id="accountName" name="accountName" placeholder="Emeka Kayode" required />
                                                 <div class="invalid-feedback">Please enter account name.</div>
                                             </div>
 

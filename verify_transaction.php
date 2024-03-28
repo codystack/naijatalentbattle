@@ -59,7 +59,7 @@
         $transaction_ref = $result->data->reference;
         $amount = $result->data->amount / 100;
         $payment_method = $result->data->channel;
-        $regNumber = 'NTB24' . rand(1000, 9999);
+        $regNumber = 'NTB24-' . rand(1000, 9999);
 
         //Connect database
         include "./config/db.php";
@@ -74,8 +74,8 @@
             $_SESSION['regNumber'] = $regNumber;
             echo "<meta http-equiv='refresh' content='0; URL=payment-success?status=success'>";
         } else {
-            echo 'Error Occured'. mysqli_error($conn);
-            exit;
+            $_SESSION['message_title']  = "Registration Failed";
+            $_SESSION['message']    = "Error occured: ".mysqli_error($conn);
         }
     }
 ?>
