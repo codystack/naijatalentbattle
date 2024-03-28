@@ -1,83 +1,125 @@
-document.getElementById('multi-step-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-
-    var firstName = document.getElementById('firstName').value;
-    var lastName = document.getElementById('lastName').value;
-    var email = document.getElementById('email').value;
-    var amount = document.getElementById('amount').value;
-    var phone = document.getElementById('phone').value;
-    var age = document.getElementById('age').value;
-    var address = document.getElementById('address').value;
-    var healthCondition = document.getElementById('healthCondition').value;
-    var reasonForCondition = document.getElementById('reasonForCondition').value;
-    var stateOfOrigin = document.getElementById('stateOfOrigin').value;
-    var occupation = document.getElementById('occupation').value;
-    var performanceType = document.getElementById('performanceType').value;
-    var stageName = document.getElementById('stageName').value;
-    var hobbies = document.getElementById('hobbies').value;
-    var parentsFullName = document.getElementById('parentsFullName').value;
-    var parentEmail = document.getElementById('parentEmail').value;
-    var parentPhone = document.getElementById('parentPhone').value;
-    var parentAddress = document.getElementById('parentAddress').value;
-
-    payWithPaystack(firstName, lastName, email, phone, age, address, healthCondition, reasonForCondition, stateOfOrigin, occupation, performanceType, stageName, hobbies, parentsFullName, parentEmail, parentPhone, parentAddress, amount);
-});
-
-function payWithPaystack(firstName, lastName, email, phone, age, address, healthCondition, reasonForCondition, stateOfOrigin, occupation, performanceType, stageName, hobbies, parentsFullName, parentEmail, parentPhone, parentAddress, amount) {
-    var handler = PaystackPop.setup({
-        key: 'pk_test_c1ff9832479e57844403e068516234c701d625ab',
-        email: email,
-        amount: amount * 100,
-      currency: 'NGN',
-        ref: 'NTB'+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
-        onClose: function(){
-            alert('Window closed.');
+const paymentForm = document.getElementById('multi-step-form');
+paymentForm.addEventListener("submit", payWithPaystack, false);
+function payWithPaystack(e) {
+  e.preventDefault();
+  let handler = PaystackPop.setup({
+    key: 'pk_test_45aad5686ed588f09b5747971fcfa2ce9c02fc29', // Replace with your public key
+    email: document.getElementById('email').value,
+    firstname: document.getElementById('firstName').value,
+    lastname: document.getElementById('lastName').value,
+    amount: document.getElementById('amount').value * 100,
+    currency: 'NGN',
+    ref: 'REF_'+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+    // label: "Optional string that replaces customer email"
+    metadata: {
+      custom_fields: [
+        {
+        display_name: "Phone",
+        variable_name: "phone",
+        value: document.getElementById('phone').value
         },
-        callback: function(response){
-            // this happens after the payment is completed successfully
-            var reference = response.reference;
 
-            // you can pass the reference to your server to verify the transaction
+        {
+        display_name: "Age",
+        variable_name: "age",
+        value: document.getElementById('age').value
+        },
 
-            // After payment success, save form information to MySQL database
-            saveFormInformation(firstName, lastName, email, phone, age, address, healthCondition, reasonForCondition, stateOfOrigin, occupation, performanceType, stageName, hobbies, parentsFullName, parentEmail, parentPhone, parentAddress, amount, reference);
+        {
+        display_name: "Gender",
+        variable_name: "gender",
+        value: document.getElementById('gender').value
+        },
+
+        {
+        display_name: "Address",
+        variable_name: "address",
+        value: document.getElementById('address').value
+        },
+
+        {
+        display_name: "Health Condition",
+        variable_name: "healthCondition",
+        value: document.getElementById('healthCondition').value
+        },
+
+        {
+        display_name: "If Yes, Indicate",
+        variable_name: "reasonForCondition",
+        value: document.getElementById('reasonForCondition').value
+        },
+
+        {
+        display_name: "State of Origin",
+        variable_name: "stateOfOrigin",
+        value: document.getElementById('stateOfOrigin').value
+        },
+
+        {
+        display_name: "Occupation",
+        variable_name: "occupation",
+        value: document.getElementById('occupation').value
+        },
+
+        {
+        display_name: "Performance Type",
+        variable_name: "performanceType",
+        value: document.getElementById('performanceType').value
+        },
+
+        {
+        display_name: "Stage Name",
+        variable_name: "stageName",
+        value: document.getElementById('stageName').value
+        },
+
+        {
+        display_name: "Hobbies",
+        variable_name: "hobbies",
+        value: document.getElementById('hobbies').value
+        },
+
+        {
+        display_name: "Talent Category",
+        variable_name: "talentCategory",
+        value: document.getElementById('talentCategory').value
+        },
+
+        {
+        display_name: "Parent/Guardian Full Name",
+        variable_name: "parentsFullName",
+        value: document.getElementById('parentsFullName').value
+        },
+
+        {
+        display_name: "Parent/Guardian Email",
+        variable_name: "parentEmail",
+        value: document.getElementById('parentEmail').value
+        },
+
+        {
+        display_name: "Parent/Guardian Phone Number",
+        variable_name: "parentPhone",
+        value: document.getElementById('parentPhone').value
+        },
+
+        {
+        display_name: "Parent/Guardian Residential Address",
+        variable_name: "parentAddress",
+        value: document.getElementById('parentAddress').value
         }
-    });
-    handler.openIframe();
-}
 
-function saveFormInformation(firstName, lastName, email, phone, age, address, healthCondition, reasonForCondition, stateOfOrigin, occupation, performanceType, stageName, hobbies, parentsFullName, parentEmail, parentPhone, parentAddress, amount, reference) {
-    // Save form information to MySQL database using PHP
-    var formData = new FormData();
-    formData.append('firstName', firstName);
-    formData.append('lastName', lastName);
-    formData.append('email', email);
-    formData.append('amount', amount);
-    formData.append('phone', phone);
-    formData.append('age', age);
-    formData.append('address', address);
-    formData.append('healthCondition', healthCondition);
-    formData.append('reasonForCondition', reasonForCondition);
-    formData.append('stateOfOrigin', stateOfOrigin);
-    formData.append('occupation', occupation);
-    formData.append('performanceType', performanceType);
-    formData.append('stageName', stageName);
-    formData.append('hobbies', hobbies);
-    formData.append('parentsFullName', parentsFullName);
-    formData.append('parentEmail', parentEmail);
-    formData.append('parentPhone', parentPhone);
-    formData.append('parentAddress', parentAddress);
-    formData.append('reference', reference);
-
-    fetch('auth/save-form.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
-    })
-    .catch(error => {
-        console.error(error);
-    });
+      ]
+    },
+    onClose: function(){
+      alert('Window closed.');
+    },
+    callback: function(response){
+      //let message = 'Payment complete! Reference: ' + response.reference;
+      //alert(message);
+      //window.location = "./verify_transaction?reference=" + response.reference; // Live Location
+      window.location = "./verify_transaction?reference=" + response.reference; // Demo Location
+    }
+  });
+  handler.openIframe();
 }

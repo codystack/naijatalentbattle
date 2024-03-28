@@ -22191,7 +22191,7 @@ b,strong {
 }
 
 .card-primary:hover {
-    background-color: var(--bs-primary)
+    background-color: var(--bs-danger)
 }
 
 .card-primary:hover .card-title {
@@ -25529,4 +25529,37 @@ a.plyr__control {
   
   #multi-step-form{
     overflow-x: hidden;
+  }
+
+
+
+.button--loading .button__text {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+.button--loading::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    /*top: 0;*/
+    left: 0;
+    right: 0;
+    /*bottom: 0;*/
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s linear infinite;
+  }
+  
+  @keyframes button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+  
+    to {
+        transform: rotate(1turn);
+    }
   }
