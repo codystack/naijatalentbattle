@@ -41,7 +41,7 @@
                         <div class="w-100 align-self-end col-12">
                             <div class="text-center mb-6">
                                 <a href="./"><img src="assets/images/ntb-logo.svg" alt="brand" width="100" class="mb-1 mt-2" /></a>
-                                <h3 class="mb-1">Registration is Ongoing</h3>
+                                <h3 class="mb-1">Pay Online Registration</h3>
                                 <p class="mb-0"><span class="text-danger fw-bold">NOTE:</span> For Crew Entry, personal and parents details of the leader should be used for the registration.</p>
                             </div>
 
