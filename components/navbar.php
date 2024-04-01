@@ -7,7 +7,7 @@
                </button>
                <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
                   <div class="offcanvas-header">
-                     <a href="index.html" class="text-inverse"><img src="assets/images/ntb-logo.svg" alt /></a>
+                     <a href="index.html" class="text-inverse"><img src="assets/images/ntb-logo.svg" width="100px" alt /></a>
                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body pt-0 align-items-center">
