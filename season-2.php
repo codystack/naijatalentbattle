@@ -26,280 +26,564 @@ $page = "About";
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 masonry gallery-grid">
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00001.jpeg">
-                            <img src="./assets/images/season2/image00001.jpeg" data-src="./assets/images/season2/image00001.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00001.jpg">
+                            <img src="./assets/images/season2/image00001.jpg" data-src="./assets/images/season2/image00001.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00002.jpeg">
-                            <img src="./assets/images/season2/image00002.jpeg" data-src="./assets/images/season2/image00002.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00002.jpg">
+                            <img src="./assets/images/season2/image00002.jpg" data-src="./assets/images/season2/image00002.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00003.jpeg">
-                            <img src="./assets/images/season2/image00003.jpeg" data-src="./assets/images/season2/image00003.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00003.jpg">
+                            <img src="./assets/images/season2/image00003.jpg" data-src="./assets/images/season2/image00003.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00004.jpeg">
-                            <img src="./assets/images/season2/image00004.jpeg" data-src="./assets/images/season2/image00004.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00004.jpg">
+                            <img src="./assets/images/season2/image00004.jpg" data-src="./assets/images/season2/image00004.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00005.jpeg">
-                            <img src="./assets/images/season2/image00005.jpeg" data-src="./assets/images/season2/image00005.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00005.jpg">
+                            <img src="./assets/images/season2/image00005.jpg" data-src="./assets/images/season2/image00005.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00006.jpeg">
-                            <img src="./assets/images/season2/image00006.jpeg" data-src="./assets/images/season2/image00006.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00006.jpg">
+                            <img src="./assets/images/season2/image00006.jpg" data-src="./assets/images/season2/image00006.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00007.jpeg">
-                            <img src="./assets/images/season2/image00007.jpeg" data-src="./assets/images/season2/image00007.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00007.jpg">
+                            <img src="./assets/images/season2/image00007.jpg" data-src="./assets/images/season2/image00007.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00008.jpeg">
-                            <img src="./assets/images/season2/image00008.jpeg" data-src="./assets/images/season2/image00008.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00008.jpg">
+                            <img src="./assets/images/season2/image00008.jpg" data-src="./assets/images/season2/image00008.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00009.jpeg">
-                            <img src="./assets/images/season2/image00009.jpeg" data-src="./assets/images/season2/image00009.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00009.jpg">
+                            <img src="./assets/images/season2/image00009.jpg" data-src="./assets/images/season2/image00009.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00010.jpeg">
-                            <img src="./assets/images/season2/image00010.jpeg" data-src="./assets/images/season2/image00010.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00010.jpg">
+                            <img src="./assets/images/season2/image00010.jpg" data-src="./assets/images/season2/image00010.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00011.jpeg">
-                            <img src="./assets/images/season2/image00011.jpeg" data-src="./assets/images/season2/image00011.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00011.jpg">
+                            <img src="./assets/images/season2/image00011.jpg" data-src="./assets/images/season2/image00011.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00012.jpeg">
-                            <img src="./assets/images/season2/image00012.jpeg" data-src="./assets/images/season2/image00012.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00012.jpg">
+                            <img src="./assets/images/season2/image00012.jpg" data-src="./assets/images/season2/image00012.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00013.jpeg">
-                            <img src="./assets/images/season2/image00013.jpeg" data-src="./assets/images/season2/image00013.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00013.jpg">
+                            <img src="./assets/images/season2/image00013.jpg" data-src="./assets/images/season2/image00013.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00014.jpeg">
-                            <img src="./assets/images/season2/image00014.jpeg" data-src="./assets/images/season2/image00014.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00014.jpg">
+                            <img src="./assets/images/season2/image00014.jpg" data-src="./assets/images/season2/image00014.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00015.jpeg">
-                            <img src="./assets/images/season2/image00015.jpeg" data-src="./assets/images/season2/image00015.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00015.jpg">
+                            <img src="./assets/images/season2/image00015.jpg" data-src="./assets/images/season2/image00015.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00016.jpeg">
-                            <img src="./assets/images/season2/image00016.jpeg" data-src="./assets/images/season2/image00016.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00016.jpg">
+                            <img src="./assets/images/season2/image00016.jpg" data-src="./assets/images/season2/image00016.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00017.jpeg">
-                            <img src="./assets/images/season2/image00017.jpeg" data-src="./assets/images/season2/image00017.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00017.jpg">
+                            <img src="./assets/images/season2/image00017.jpg" data-src="./assets/images/season2/image00017.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00018.jpeg">
-                            <img src="./assets/images/season2/image00018.jpeg" data-src="./assets/images/season2/image00018.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00018.jpg">
+                            <img src="./assets/images/season2/image00018.jpg" data-src="./assets/images/season2/image00018.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00019.jpeg">
-                            <img src="./assets/images/season2/image00019.jpeg" data-src="./assets/images/season2/image00019.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00019.jpg">
+                            <img src="./assets/images/season2/image00019.jpg" data-src="./assets/images/season2/image00019.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00020.jpeg">
-                            <img src="./assets/images/season2/image00020.jpeg" data-src="./assets/images/season2/image00020.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00020.jpg">
+                            <img src="./assets/images/season2/image00020.jpg" data-src="./assets/images/season2/image00020.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00021.jpeg">
-                            <img src="./assets/images/season2/image00021.jpeg" data-src="./assets/images/season2/image00021.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00021.jpg">
+                            <img src="./assets/images/season2/image00021.jpg" data-src="./assets/images/season2/image00021.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00022.jpeg">
-                            <img src="./assets/images/season2/image00022.jpeg" data-src="./assets/images/season2/image00022.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00022.jpg">
+                            <img src="./assets/images/season2/image00022.jpg" data-src="./assets/images/season2/image00022.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00023.jpeg">
-                            <img src="./assets/images/season2/image00023.jpeg" data-src="./assets/images/season2/image00023.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00023.jpg">
+                            <img src="./assets/images/season2/image00023.jpg" data-src="./assets/images/season2/image00023.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00024.jpeg">
-                            <img src="./assets/images/season2/image00024.jpeg" data-src="./assets/images/season2/image00024.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00024.jpg">
+                            <img src="./assets/images/season2/image00024.jpg" data-src="./assets/images/season2/image00024.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00025.jpeg">
-                            <img src="./assets/images/season2/image00025.jpeg" data-src="./assets/images/season2/image00025.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00025.jpg">
+                            <img src="./assets/images/season2/image00025.jpg" data-src="./assets/images/season2/image00025.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00026.jpeg">
-                            <img src="./assets/images/season2/image00026.jpeg" data-src="./assets/images/season2/image00026.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00026.jpg">
+                            <img src="./assets/images/season2/image00026.jpg" data-src="./assets/images/season2/image00026.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00027.jpeg">
-                            <img src="./assets/images/season2/image00027.jpeg" data-src="./assets/images/season2/image00027.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00027.jpg">
+                            <img src="./assets/images/season2/image00027.jpg" data-src="./assets/images/season2/image00027.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00028.jpeg">
-                            <img src="./assets/images/season2/image00028.jpeg" data-src="./assets/images/season2/image00028.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00028.jpg">
+                            <img src="./assets/images/season2/image00028.jpg" data-src="./assets/images/season2/image00028.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00029.jpeg">
-                            <img src="./assets/images/season2/image00029.jpeg" data-src="./assets/images/season2/image00029.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00029.jpg">
+                            <img src="./assets/images/season2/image00029.jpg" data-src="./assets/images/season2/image00029.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00030.jpeg">
-                            <img src="./assets/images/season2/image00030.jpeg" data-src="./assets/images/season2/image00030.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00030.jpg">
+                            <img src="./assets/images/season2/image00030.jpg" data-src="./assets/images/season2/image00030.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00031.jpeg">
-                            <img src="./assets/images/season2/image00031.jpeg" data-src="./assets/images/season2/image00031.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00031.jpg">
+                            <img src="./assets/images/season2/image00031.jpg" data-src="./assets/images/season2/image00031.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00032.jpeg">
-                            <img src="./assets/images/season2/image00032.jpeg" data-src="./assets/images/season2/image00032.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00032.jpg">
+                            <img src="./assets/images/season2/image00032.jpg" data-src="./assets/images/season2/image00032.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00033.jpeg">
-                            <img src="./assets/images/season2/image00033.jpeg" data-src="./assets/images/season2/image00033.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00033.jpg">
+                            <img src="./assets/images/season2/image00033.jpg" data-src="./assets/images/season2/image00033.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00034.jpeg">
-                            <img src="./assets/images/season2/image00034.jpeg" data-src="./assets/images/season2/image00034.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00034.jpg">
+                            <img src="./assets/images/season2/image00034.jpg" data-src="./assets/images/season2/image00034.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00035.jpeg">
-                            <img src="./assets/images/season2/image00035.jpeg" data-src="./assets/images/season2/image00035.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00035.jpg">
+                            <img src="./assets/images/season2/image00035.jpg" data-src="./assets/images/season2/image00035.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00036.jpeg">
-                            <img src="./assets/images/season2/image00036.jpeg" data-src="./assets/images/season2/image00036.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00036.jpg">
+                            <img src="./assets/images/season2/image00036.jpg" data-src="./assets/images/season2/image00036.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00037.jpeg">
-                            <img src="./assets/images/season2/image00037.jpeg" data-src="./assets/images/season2/image00037.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00037.jpg">
+                            <img src="./assets/images/season2/image00037.jpg" data-src="./assets/images/season2/image00037.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00038.jpeg">
-                            <img src="./assets/images/season2/image00038.jpeg" data-src="./assets/images/season2/image00038.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00038.jpg">
+                            <img src="./assets/images/season2/image00038.jpg" data-src="./assets/images/season2/image00038.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00039.jpeg">
-                            <img src="./assets/images/season2/image00039.jpeg" data-src="./assets/images/season2/image00039.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00039.jpg">
+                            <img src="./assets/images/season2/image00039.jpg" data-src="./assets/images/season2/image00039.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00040.jpeg">
-                            <img src="./assets/images/season2/image00040.jpeg" data-src="./assets/images/season2/image00040.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00040.jpg">
+                            <img src="./assets/images/season2/image00040.jpg" data-src="./assets/images/season2/image00040.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00041.jpeg">
-                            <img src="./assets/images/season2/image00041.jpeg" data-src="./assets/images/season2/image00041.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00041.jpg">
+                            <img src="./assets/images/season2/image00041.jpg" data-src="./assets/images/season2/image00041.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00042.jpeg">
-                            <img src="./assets/images/season2/image00042.jpeg" data-src="./assets/images/season2/image00042.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00042.jpg">
+                            <img src="./assets/images/season2/image00042.jpg" data-src="./assets/images/season2/image00042.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00043.jpeg">
-                            <img src="./assets/images/season2/image00043.jpeg" data-src="./assets/images/season2/image00043.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00043.jpg">
+                            <img src="./assets/images/season2/image00043.jpg" data-src="./assets/images/season2/image00043.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00044.jpeg">
-                            <img src="./assets/images/season2/image00044.jpeg" data-src="./assets/images/season2/image00044.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00044.jpg">
+                            <img src="./assets/images/season2/image00044.jpg" data-src="./assets/images/season2/image00044.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00045.jpeg">
-                            <img src="./assets/images/season2/image00045.jpeg" data-src="./assets/images/season2/image00045.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00045.jpg">
+                            <img src="./assets/images/season2/image00045.jpg" data-src="./assets/images/season2/image00045.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00046.jpeg">
-                            <img src="./assets/images/season2/image00046.jpeg" data-src="./assets/images/season2/image00046.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00046.jpg">
+                            <img src="./assets/images/season2/image00046.jpg" data-src="./assets/images/season2/image00046.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00047.jpeg">
-                            <img src="./assets/images/season2/image00047.jpeg" data-src="./assets/images/season2/image00047.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00047.jpg">
+                            <img src="./assets/images/season2/image00047.jpg" data-src="./assets/images/season2/image00047.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00048.jpeg">
-                            <img src="./assets/images/season2/image00048.jpeg" data-src="./assets/images/season2/image00048.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00048.jpg">
+                            <img src="./assets/images/season2/image00048.jpg" data-src="./assets/images/season2/image00048.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00049.jpeg">
-                            <img src="./assets/images/season2/image00049.jpeg" data-src="./assets/images/season2/image00049.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00049.jpg">
+                            <img src="./assets/images/season2/image00049.jpg" data-src="./assets/images/season2/image00049.jpg" class="img-fluid">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="gallery-item" href="./assets/images/season2/image00050.jpeg">
-                            <img src="./assets/images/season2/image00050.jpeg" data-src="./assets/images/season2/image00050.jpeg" class="img-fluid">
+                        <a class="gallery-item" href="./assets/images/season2/image00050.jpg">
+                            <img src="./assets/images/season2/image00050.jpg" data-src="./assets/images/season2/image00050.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00051.jpg">
+                            <img src="./assets/images/season2/image00051.jpg" data-src="./assets/images/season2/image00051.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00052.jpg">
+                            <img src="./assets/images/season2/image00052.jpg" data-src="./assets/images/season2/image00052.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00053.jpg">
+                            <img src="./assets/images/season2/image00053.jpg" data-src="./assets/images/season2/image00053.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00054.jpg">
+                            <img src="./assets/images/season2/image00054.jpg" data-src="./assets/images/season2/image00054.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00055.jpg">
+                            <img src="./assets/images/season2/image00055.jpg" data-src="./assets/images/season2/image00055.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00056.jpg">
+                            <img src="./assets/images/season2/image00056.jpg" data-src="./assets/images/season2/image00056.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00057.jpg">
+                            <img src="./assets/images/season2/image00057.jpg" data-src="./assets/images/season2/image00057.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00058.jpg">
+                            <img src="./assets/images/season2/image00058.jpg" data-src="./assets/images/season2/image00058.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00059.jpg">
+                            <img src="./assets/images/season2/image00059.jpg" data-src="./assets/images/season2/image00059.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00060.jpg">
+                            <img src="./assets/images/season2/image00060.jpg" data-src="./assets/images/season2/image00060.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00061.jpg">
+                            <img src="./assets/images/season2/image00061.jpg" data-src="./assets/images/season2/image00061.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00062.jpg">
+                            <img src="./assets/images/season2/image00062.jpg" data-src="./assets/images/season2/image00062.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00063.jpg">
+                            <img src="./assets/images/season2/image00063.jpg" data-src="./assets/images/season2/image00063.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00064.jpg">
+                            <img src="./assets/images/season2/image00064.jpg" data-src="./assets/images/season2/image00064.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00065.jpg">
+                            <img src="./assets/images/season2/image00065.jpg" data-src="./assets/images/season2/image00065.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00066.jpg">
+                            <img src="./assets/images/season2/image00066.jpg" data-src="./assets/images/season2/image00066.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00067.jpg">
+                            <img src="./assets/images/season2/image00067.jpg" data-src="./assets/images/season2/image00067.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00068.jpg">
+                            <img src="./assets/images/season2/image00068.jpg" data-src="./assets/images/season2/image00068.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00069.jpg">
+                            <img src="./assets/images/season2/image00069.jpg" data-src="./assets/images/season2/image00069.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00070.jpg">
+                            <img src="./assets/images/season2/image00070.jpg" data-src="./assets/images/season2/image00070.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00071.jpg">
+                            <img src="./assets/images/season2/image00071.jpg" data-src="./assets/images/season2/image00071.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00072.jpg">
+                            <img src="./assets/images/season2/image00072.jpg" data-src="./assets/images/season2/image00072.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00073.jpg">
+                            <img src="./assets/images/season2/image00073.jpg" data-src="./assets/images/season2/image00073.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00074.jpg">
+                            <img src="./assets/images/season2/image00074.jpg" data-src="./assets/images/season2/image00074.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00075.jpg">
+                            <img src="./assets/images/season2/image00075.jpg" data-src="./assets/images/season2/image00075.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00076.jpg">
+                            <img src="./assets/images/season2/image00076.jpg" data-src="./assets/images/season2/image00076.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00077.jpg">
+                            <img src="./assets/images/season2/image00077.jpg" data-src="./assets/images/season2/image00077.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00078.jpg">
+                            <img src="./assets/images/season2/image00078.jpg" data-src="./assets/images/season2/image00078.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00079.jpg">
+                            <img src="./assets/images/season2/image00079.jpg" data-src="./assets/images/season2/image00079.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00080.jpg">
+                            <img src="./assets/images/season2/image00080.jpg" data-src="./assets/images/season2/image00080.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00081.jpg">
+                            <img src="./assets/images/season2/image00081.jpg" data-src="./assets/images/season2/image00081.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00082.jpg">
+                            <img src="./assets/images/season2/image00082.jpg" data-src="./assets/images/season2/image00082.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00083.jpg">
+                            <img src="./assets/images/season2/image00083.jpg" data-src="./assets/images/season2/image00083.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00084.jpg">
+                            <img src="./assets/images/season2/image00084.jpg" data-src="./assets/images/season2/image00084.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00085.jpg">
+                            <img src="./assets/images/season2/image00085.jpg" data-src="./assets/images/season2/image00085.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00086.jpg">
+                            <img src="./assets/images/season2/image00086.jpg" data-src="./assets/images/season2/image00086.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00087.jpg">
+                            <img src="./assets/images/season2/image00087.jpg" data-src="./assets/images/season2/image00087.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00088.jpg">
+                            <img src="./assets/images/season2/image00088.jpg" data-src="./assets/images/season2/image00088.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00089.jpg">
+                            <img src="./assets/images/season2/image00089.jpg" data-src="./assets/images/season2/image00089.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00090.jpg">
+                            <img src="./assets/images/season2/image00090.jpg" data-src="./assets/images/season2/image00090.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00091.jpg">
+                            <img src="./assets/images/season2/image00091.jpg" data-src="./assets/images/season2/image00091.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00092.jpg">
+                            <img src="./assets/images/season2/image00092.jpg" data-src="./assets/images/season2/image00092.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00093.jpg">
+                            <img src="./assets/images/season2/image00093.jpg" data-src="./assets/images/season2/image00093.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00094.jpg">
+                            <img src="./assets/images/season2/image00094.jpg" data-src="./assets/images/season2/image00094.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00095.jpg">
+                            <img src="./assets/images/season2/image00095.jpg" data-src="./assets/images/season2/image00095.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00096.jpg">
+                            <img src="./assets/images/season2/image00096.jpg" data-src="./assets/images/season2/image00096.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00097.jpg">
+                            <img src="./assets/images/season2/image00097.jpg" data-src="./assets/images/season2/image00097.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00098.jpg">
+                            <img src="./assets/images/season2/image00098.jpg" data-src="./assets/images/season2/image00098.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00099.jpg">
+                            <img src="./assets/images/season2/image00099.jpg" data-src="./assets/images/season2/image00099.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00100.jpg">
+                            <img src="./assets/images/season2/image00100.jpg" data-src="./assets/images/season2/image00100.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00101.jpg">
+                            <img src="./assets/images/season2/image00101.jpg" data-src="./assets/images/season2/image00101.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00102.jpg">
+                            <img src="./assets/images/season2/image00102.jpg" data-src="./assets/images/season2/image00102.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00103.jpg">
+                            <img src="./assets/images/season2/image00103.jpg" data-src="./assets/images/season2/image00103.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00104.jpg">
+                            <img src="./assets/images/season2/image00104.jpg" data-src="./assets/images/season2/image00104.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00105.jpg">
+                            <img src="./assets/images/season2/image00105.jpg" data-src="./assets/images/season2/image00105.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00106.jpg">
+                            <img src="./assets/images/season2/image00106.jpg" data-src="./assets/images/season2/image00106.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00107.jpg">
+                            <img src="./assets/images/season2/image00107.jpg" data-src="./assets/images/season2/image00107.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00108.jpg">
+                            <img src="./assets/images/season2/image00108.jpg" data-src="./assets/images/season2/image00108.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00109.jpg">
+                            <img src="./assets/images/season2/image00109.jpg" data-src="./assets/images/season2/image00109.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00110.jpg">
+                            <img src="./assets/images/season2/image00110.jpg" data-src="./assets/images/season2/image00110.jpg" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="gallery-item" href="./assets/images/season2/image00111.jpg">
+                            <img src="./assets/images/season2/image00111.jpg" data-src="./assets/images/season2/image00111.jpg" class="img-fluid">
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <div class="modal fade lightbox-modal" id="lightbox-modal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-                <div class="modal-content">
-                    <button type="button" class="btn-fullscreen-enlarge" aria-label="Enlarge fullscreen">
-                        <svg class="bi"><use href="#enlarge"></use></svg>
-                    </button>
-                    <button type="button" class="btn-fullscreen-exit d-none" aria-label="Exit fullscreen">
-                        <svg class="bi"><use href="#exit"></use></svg>
-                    </button>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-body">
-                        <div class="lightbox-content">
-                        <!-- JS content here -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-                        
     </main>
 
 <?php @include("./components/footer.php"); ?>
