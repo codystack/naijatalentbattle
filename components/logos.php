@@ -42,6 +42,34 @@
                                  </figure>
                               </div>
                            </div>
+                           <div class="swiper-slide">
+                              <div data-cue="slideInDown">
+                                 <figure class="text-center">
+                                    <img src="assets/images/s_logo6.png" alt="logo" />
+                                 </figure>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div data-cue="slideInDown">
+                                 <figure class="text-center">
+                                    <img src="assets/images/s_logo7.png" alt="logo" />
+                                 </figure>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div data-cue="slideInDown">
+                                 <figure class="text-center">
+                                    <img src="assets/images/s_logo8.png" alt="logo" />
+                                 </figure>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div data-cue="slideInDown">
+                                 <figure class="text-center">
+                                    <img src="assets/images/s_logo9.png" alt="logo" />
+                                 </figure>
+                              </div>
+                           </div>
                         </div>
                         <div class="swiper-pagination"></div>
                      </div>

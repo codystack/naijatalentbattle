@@ -164,7 +164,7 @@ include "./components/topnavbar.php";
                                             <div class="col-md-4 col-lg-6 text-right">
                                                 <div class="text-end">
                                                     <span class="fs-6 font-weight-bold">Indicate Health Condition</span>
-                                                    <h6 class="mt-2"><?php echo $reasonForCondition; ?> </h6>
+                                                    <h6 class="mt-2"><?php if(!$reasonForCondition){echo 'NIL';}else{ echo $reasonForCondition;} ?> </h6>
                                                 </div>
                                             </div>
                                         </div>
