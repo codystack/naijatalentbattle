@@ -1,5 +1,5 @@
 <?php
-$page = "About";
+$page = "Gallery";
 @include("./components/header.php");
 @include("./components/navbar-opt.php");
 ?>
