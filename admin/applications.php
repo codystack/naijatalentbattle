@@ -55,28 +55,32 @@ require_once "./auth/delete.php";
                                             <table id="order-listing" class="table">
                                                 <thead>
                                                   <tr>
-                                                      <th class="font-weight-bold">S/N</th>
-                                                      <th class="font-weight-bold">Name</th>
-                                                      <th class="font-weight-bold">Email</th>
-                                                      <th class="font-weight-bold">Phone</th>
-                                                      <th class="font-weight-bold">Status</th>
-                                                      <th class="font-weight-bold text-right">Action</th>
+                                                        <th class="font-weight-bold">S/N</th>
+                                                        <th class="font-weight-bold">Name</th>
+                                                        <th class="font-weight-bold">Phone</th>
+                                                        <th class="font-weight-bold">REG Number</th>
+                                                        <th class="font-weight-bold">Payment Method</th>
+                                                        <th class="font-weight-bold">Application Date</th>
+                                                        <th class="font-weight-bold text-right">Action</th>
                                                   </tr>
                                                 </thead>
 
                                                 <tbody>
                                                     <?php
                                                     $u_id = 1;
-                                                    $select_query = "SELECT * FROM users ORDER BY user_id ASC";
-                                                        $result = mysqli_query($conn, $select_query);
-                                                        if (mysqli_num_rows($result) > 0) {
-                                                            // output data of each row
-                                                            while($row = mysqli_fetch_assoc($result)) {
-                                                                $user_id = $row['user_id'];
-                                                                $first_name = $row['first_name'];
-                                                                $last_name = $row['last_name'];
-                                                                $email = $row['email'];
-                                                                $status = $row['status'];
+                                                    $select_query = "SELECT * FROM application_form ORDER BY dateCreated ASC";
+                                                    $result = mysqli_query($conn, $select_query);
+                                                    if (mysqli_num_rows($result) > 0) {
+                                                        // output data of each row
+                                                        while($row = mysqli_fetch_assoc($result)) {
+                                                            $id = $row['id'];
+                                                            $firstName = $row['firstName'];
+                                                            $lastName = $row['lastName'];
+                                                            $phone = $row['phone'];
+                                                            $regNumber = $row['regNumber'];
+                                                            $payment_method = $row['payment_method'];
+                                                            $dateCreated = $row['dateCreated'];
+                                                            $date = strtotime($dateCreated);
                                                                 $phone = $row['phone'];
                                                                 switch ($status) {
                                                                     case "Inactive";
@@ -91,18 +95,18 @@ require_once "./auth/delete.php";
                                                                         $class  = '';
                                                                 }
                                                     ?>
-                                                  <tr>
-                                                      <td><?php echo $u_id; ?></td>
-                                                      <td><?php echo $first_name; ?> <?php echo $last_name ?></td>
-                                                      <td><?php echo $email; ?></td>
-                                                      <td><?php echo $phone; ?></td>
-                                                      <td class="text-center"><span class="badge <? echo $class; ?> text-xs <? echo $text; ?>"><?php echo $status; ?></span></td>
-                                                      <td class="text-right">
-                                                            <a href="view-user?id=<?php echo $user_id; ?>" class='btn btn-dark' style="padding: 0.5rem 1rem;">View</a>
-                                                            <button type="button" data-id="<? echo $user_id; ?>" onclick="confirmUserDelete(this);" class='btn btn-danger' style="padding: 0.5rem 1rem;">Delete</button>
+                                                    <tr>
+                                                        <td><?php echo $u_id; ?></td>
+                                                        <td><?php echo $firstName; ?> <?php echo $lastName ?></td>
+                                                        <td><?php echo $phone; ?></td>
+                                                        <td><?php echo $regNumber; ?></td>
+                                                        <td><?php echo $payment_method; ?></td>
+                                                        <td><?php echo date('j F Y', $date); ?></td>
+                                                        <td class="text-right">
+                                                            <a href="view-application?id=<?php echo $id; ?>" class='btn btn-dark' style="padding: 0.5rem 1rem;">View</a>
                                                         </td>
-                                                  </tr>
-                                                  <?php
+                                                    </tr>
+                                                    <?php
                                                     $u_id++;
                                                             }
                                                         }

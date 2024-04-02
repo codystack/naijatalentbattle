@@ -28,7 +28,7 @@ include "./components/topnavbar.php";
                                             <h4 class="card-title text-primary">Latest Applications</h4>
                                         </div>
                                         <div class="hstack align-items-center">
-                                            <a href="applications" class="btn btn-sm btn-dark d-none d-sm-inline-flex"> <span class="pe-2">View all</span><span> <i class="bi bi-arrow-right"></i></span></a>
+                                            <a href="applications" class="btn btn-danger d-none d-sm-inline-flex"> <span class="pe-2">View all</span><span> <i class="bi bi-arrow-right"></i></span></a>
                                         </div>
                                     </div>
                                     
@@ -39,10 +39,10 @@ include "./components/topnavbar.php";
                                                 <tr>
                                                     <th class="font-weight-bold">S/N</th>
                                                     <th class="font-weight-bold">Name</th>
-                                                    <th class="font-weight-bold">Amount</th>
                                                     <th class="font-weight-bold">REG Number</th>
                                                     <th class="font-weight-bold">Payment Method</th>
-                                                    <th class="text-right font-weight-bold">Application Date</th>
+                                                    <th class="font-weight-bold">Application Date</th>
+                                                    <th class="font-weight-bold text-right">Action</th>
                                                 </tr>
                                             </thead>
                                             
@@ -57,7 +57,6 @@ include "./components/topnavbar.php";
                                                             $id = $row['id'];
                                                             $firstName = $row['firstName'];
                                                             $lastName = $row['lastName'];
-                                                            $amount = $row['amount'];
                                                             $regNumber = $row['regNumber'];
                                                             $payment_method = $row['payment_method'];
                                                             $dateCreated = $row['dateCreated'];
@@ -66,10 +65,12 @@ include "./components/topnavbar.php";
                                                 <tr>
                                                     <td><?php echo $dash_id; ?></td>
                                                     <td><?php echo $firstName; ?> <?php echo $lastName; ?></td>
-                                                    <td>₦<?php echo number_format($amount, 0, '.', ','); ?></td>
                                                     <td><?php echo $regNumber; ?></td>
                                                     <td><?php echo $payment_method; ?></td>
-                                                    <td class="text-right"><?php echo date('j F Y', $date); ?></td>
+                                                    <td><?php echo date('j F Y', $date); ?></td>
+                                                    <td class="text-right">
+                                                        <a href="view-application?id=<?php echo $id; ?>" class='btn btn-dark' style="padding: 0.5rem 1rem;">View</a>
+                                                    </td>
                                                 </tr>
                                                 <?php
                                                 $dash_id++;
