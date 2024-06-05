@@ -110,6 +110,7 @@
                                                     <h5 class="h2 mb-1 fw-semibold">Registration Successful👏</h5>
                                                     <p class="mb-3">Copy the registration number below and keep it safe.</p>
                                                     <p class="mb-0">Reg No. <span class="fw-bold text-dark"><?php echo $_SESSION['regNumber']; ?></span></p>
+                                                    <p class="mb-3 text-danger">Send a screenshot for proof of payment via <br>Whatsapp to +2347049066720 if you registered via bank transfer.</p>
                                                     <form method="get" style="margin-top: 20px">
                                                         <button class="btn btn-md btn-danger mt-5" name="close" type="submit"><i class="bi bi-arrow-left me-2"></i>Go back</button>
                                                     </form>

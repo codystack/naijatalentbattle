@@ -319,14 +319,14 @@
                                                 <div class="invalid-feedback">Please enter parent/guardian address.</div>
                                             </div>
 
-                                            <div class="col-md-6 mb-3">
+                                            <!-- <div class="col-md-6 mb-3">
                                                 <label class="form-label" for="proofOfPayment">
                                                     Upload Proof of Payment
                                                     <span class="text-danger">*</span>
                                                 </label>
                                                 <input type="file" required class="form-control" name="proofOfPayment" required id="proofOfPayment">
                                                 <div class="invalid-feedback">Please upload proof of payment.</div>
-                                            </div>
+                                            </div> -->
 
                                             <div class="col-md-6 mb-3">
                                                 <label for="bankNameInput" class="form-label">
