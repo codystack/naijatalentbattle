@@ -58,7 +58,7 @@
                                     <div class="step-circle" onclick="displayStep(3)">3</div>
                                 </div>
 
-                                <form class="g-3 needs-validation mb-6" novalidate id="multi-step-form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" enctype="multipart/form-data">
+                                <form class="g-3 needs-validation mb-6" novalidate id="multi-step-form" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
 
                                     <div class="step step-1">
 

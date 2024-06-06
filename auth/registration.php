@@ -25,7 +25,7 @@ if (isset($_POST['reg_btn'])) {
     $parentEmail = $conn->real_escape_string($_POST['parentEmail']);
     $parentPhone = $conn->real_escape_string($_POST['parentPhone']);
     $parentAddress = $conn->real_escape_string($_POST['parentAddress']);
-    $proofOfPayment_path = $conn->real_escape_string('upload/'.$_FILES['link']['name']);
+    // $proofOfPayment_path = $conn->real_escape_string('upload/'.$_FILES['link']['name']);
     $accountNumber = $conn->real_escape_string($_POST['accountNumber']);
     $accountName = $conn->real_escape_string($_POST['accountName']);
     $bankName = $conn->real_escape_string($_POST['bankName']);
@@ -35,29 +35,29 @@ if (isset($_POST['reg_btn'])) {
     $regNumber = 'NTB24-' . rand(1000, 9999);
 
 
-    if (file_exists($proofOfPayment_path)){
-        $proofOfPayment_path = $conn->real_escape_string('upload/'.uniqid().rand().$_FILES['proofOfPayment']['name']);
-    }
+    // if (file_exists($proofOfPayment_path)){
+    //     $proofOfPayment_path = $conn->real_escape_string('upload/'.uniqid().rand().$_FILES['proofOfPayment']['name']);
+    // }
 
-    $checker = 0;
+    // $checker = 0;
 
     //make sure file type is image
-    if (preg_match("!image!", $_FILES['proofOfPayment']['type'])) {
-        $checker ++;
-    }
-    if ($checker < 1){
-        exit;
-    }
+    // if (preg_match("!image!", $_FILES['proofOfPayment']['type'])) {
+    //     $checker ++;
+    // }
+    // if ($checker < 1){
+    //     exit;
+    // }
 
     // Finally, insert details into database
-    $query = "INSERT INTO application_form (firstName, lastName, email, phone, age, gender, address, healthCondition, reasonForCondition, stateOfOrigin, occupation, performanceType, stageName, hobbies, talentCategory, parentsFullName, parentEmail, parentPhone, parentAddress, proofOfPayment, accountNumber, accountName, bankName, amount, transaction_ref, payment_method, regNumber) 
-                VALUES('$firstName', '$lastName', '$email', '$phone', '$age', '$gender', '$address', '$healthCondition', '$reasonForCondition', '$stateOfOrigin', '$occupation', '$performanceType', '$stageName', '$hobbies', '$talentCategory', '$parentsFullName', '$parentEmail', '$parentPhone', '$parentAddress', '$proofOfPayment_path', '$accountNumber', '$accountName', '$bankName', '$amount', '$transaction_ref', 'Off-line Bank Transfer', '$regNumber')";
+    $query = "INSERT INTO application_form (firstName, lastName, email, phone, age, gender, address, healthCondition, reasonForCondition, stateOfOrigin, occupation, performanceType, stageName, hobbies, talentCategory, parentsFullName, parentEmail, parentPhone, parentAddress, accountNumber, accountName, bankName, amount, transaction_ref, payment_method, regNumber) 
+                VALUES('$firstName', '$lastName', '$email', '$phone', '$age', '$gender', '$address', '$healthCondition', '$reasonForCondition', '$stateOfOrigin', '$occupation', '$performanceType', '$stageName', '$hobbies', '$talentCategory', '$parentsFullName', '$parentEmail', '$parentPhone', '$parentAddress', '$accountNumber', '$accountName', '$bankName', '$amount', '$transaction_ref', 'Off-line Bank Transfer', '$regNumber')";
 
     mysqli_query($conn, $query);
     if (mysqli_affected_rows($conn) > 0) {
 
         //copy image to upload folder
-        copy($_FILES['proofOfPayment']['tmp_name'], $proofOfPayment_path);
+        // copy($_FILES['proofOfPayment']['tmp_name'], $proofOfPayment_path);
         
         $_SESSION['regNumber'] = $regNumber;
         echo "<meta http-equiv='refresh' content='0; URL=payment-success?status=success'>";
